@@ -53,13 +53,13 @@
 /* Nested inline elements won't render their whitespace,
  what with it being flexed as a henchman so work around it: */
 /* Update maybe they do now, at least in newer context */
-.ccr input ~ label a {
-  /* margin-right: 0.3em;
-  margin-left: 0.3em; */
+/* .ccr input ~ label a {
+  margin-right: 0.3em;
+  margin-left: 0.3em;
 }
 .ccr input ~ label a + a {
-  /* margin-left: 0; */
-}
+  margin-left: 0;
+} */
 .ccr input:focus ~ label::before {
   box-shadow: 0 0 0 var(--ccr-border-width-focus) var(--ccr-color-outer);
 }
