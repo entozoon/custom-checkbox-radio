@@ -1,6 +1,6 @@
 {
   "name": "custom-checkbox-radio",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "CSS based custom checkboxes and radios; a CSS module solution.",
   "main": "ccr.module.css",
   "scripts": {
