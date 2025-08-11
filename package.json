@@ -1,0 +1,19 @@
+{
+  "name": "custom-checkbox-radio",
+  "version": "1.0.0",
+  "description": "CSS based custom checkboxes and radios; a CSS module solution.",
+  "main": "ccr.module.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/entozoon/custom-checkbox-radio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/entozoon/custom-checkbox-radio/issues"
+  },
+  "homepage": "https://github.com/entozoon/custom-checkbox-radio#readme"
+}
