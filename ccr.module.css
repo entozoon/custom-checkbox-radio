@@ -37,18 +37,26 @@
   cursor: pointer;
   user-select: none;
 }
-.ccr input ~ label::before {
+.ccr input ~ label::before,
+.ccr input ~ label::after {
   content: "";
   width: var(--ccr-size);
   height: var(--ccr-size);
-  background-color: var(--ccr-background);
   /* box-shadow doesn't mess with the position of the background-image, unlike border */
+}
+.ccr input ~ label::before {
+  margin-right: 0.5em;
+  background-color: var(--ccr-background);
   box-shadow: 0 0 0 var(--ccr-border-width) var(--ccr-color-outer);
   background-position: center;
   background-repeat: no-repeat;
   flex-shrink: 0;
-  margin-right: 0.5em;
   transform: translateY(var(--ccr-offset-y));
+}
+.ccr input ~ label::after {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 /* Nested inline elements won't render their whitespace,
  what with it being flexed as a henchman so work around it: */
