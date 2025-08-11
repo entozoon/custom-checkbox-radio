@@ -18,6 +18,9 @@
 .ccr ::after {
   box-sizing: border-box;
 }
+.ccr {
+  position: relative;
+}
 .ccr input {
   position: absolute;
   width: 1px;
