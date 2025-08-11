@@ -72,7 +72,7 @@
   border-radius: var(--ccr-border-radius-checkbox);
 }
 .ccr input[type="checkbox"]:checked ~ label::before {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z' fill='var(--ccr-ccr-color-inner)' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z' fill='var(--ccr-color-inner)' /%3E%3C/svg%3E");
   background-size: var(--ccr-icon-scale-checkbox) var(--ccr-icon-scale-checkbox);
 }
 /* Radio-specific */
